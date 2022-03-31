@@ -6,12 +6,12 @@ see: https://github.com/LunarVim/Neovim-from-scratch
 
 - Linux or MacOS
 ```bash
-git clone https://github.com/LunarVim/Neovim-from-scratch.git ~/.config/nvim
+git clone https://github.com/shawnbreak/nvim-config.git ~/.config/nvim
 ```
 
 - Windows
 ```bash
-git clone https://github.com/LunarVim/Neovim-from-scratch.git ~/AppData/Local/nvim
+git clone https://github.com/shawnbreak/nvim-config.git $HOME\AppData\Local\nvim
 ```
 
 

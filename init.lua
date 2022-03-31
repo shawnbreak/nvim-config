@@ -5,7 +5,9 @@ require "user.colorscheme"
 require "user.cmp"
 require "user.lsp"
 require "user.telescope"
-require "user.treesitter"
+if not vim.fn.has("macunix") then
+    require "user.treesitter"
+end
 require "user.nvimtree"
 require "user.bufferline"
 require "user.gitsigns"
