@@ -95,6 +95,12 @@ return packer.startup(function(use)
       -- tag = 'release' -- To use the latest release
     }
 
+    -- Harpoon
+    use 'ThePrimeagen/harpoon'
+
+    -- Project
+    use "ahmedkhalf/project.nvim"
+
     -- Automatically set up  your configuration file after cloning packer.nvim
     -- Put this at the end of all plugins
     if PACKER_BOOTSTRAP then

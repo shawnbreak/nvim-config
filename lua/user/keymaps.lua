@@ -60,3 +60,11 @@ keymap("n", "<C-t>", ":Telescope live_grep<CR>", opts)
 
 -- NvimTree
 keymap("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
+
+
+-- Harpoon
+keymap("n", "<leader>h", ":lua require('harpoon.ui').toggle_quick_menu()<CR>", opts)
+keymap("n", "<leader>m", ":lua require('harpoon.mark').add_file()<CR>", opts)
+
+-- Project
+keymap("n", "<leader>p", ":Telescope projects<CR>", opts)

@@ -11,4 +11,5 @@ end
 require "user.nvimtree"
 require "user.bufferline"
 require "user.gitsigns"
-
+require "user.harpoon"
+require "user.projectnvim"
