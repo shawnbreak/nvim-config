@@ -101,6 +101,9 @@ return packer.startup(function(use)
     -- Project
     use "ahmedkhalf/project.nvim"
 
+    -- ToggleTerm
+    use "akinsho/toggleterm.nvim"
+
     -- Automatically set up  your configuration file after cloning packer.nvim
     -- Put this at the end of all plugins
     if PACKER_BOOTSTRAP then
