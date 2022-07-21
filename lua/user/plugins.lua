@@ -36,6 +36,9 @@ packer.init {
         open_fn = function()
             return require("packer.util").float {border = "rounded"}
         end
+    },
+    git = {
+        default_url_format = 'https://hub.fastgit.xyz/%s.git'
     }
 }
 
