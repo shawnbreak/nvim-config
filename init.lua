@@ -14,3 +14,5 @@ require "user.gitsigns"
 require "user.harpoon"
 require "user.projectnvim"
 require "user.alpha"
+
+require "user.globals"
