@@ -68,3 +68,7 @@ keymap("n", "<leader>m", ":lua require('harpoon.mark').add_file()<CR>", opts)
 
 -- Project
 keymap("n", "<leader>p", ":Telescope projects<CR>", opts)
+
+-- ToggleTerm
+keymap("n", "<leader>tt", ":ToggleTerm direction=float<CR>", opts)
+
