@@ -112,6 +112,9 @@ return packer.startup(function(use)
     -- Which Key
     use "folke/which-key.nvim"
 
+    -- Comment
+    use 'numToStr/Comment.nvim'
+
 
     -- Automatically set up  your configuration file after cloning packer.nvim
     -- Put this at the end of all plugins
