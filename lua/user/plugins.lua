@@ -109,6 +109,10 @@ return packer.startup(function(use)
     -- AutoPaire
     use "windwp/nvim-autopairs"
 
+    -- Which Key
+    use "folke/which-key.nvim"
+
+
     -- Automatically set up  your configuration file after cloning packer.nvim
     -- Put this at the end of all plugins
     if PACKER_BOOTSTRAP then
