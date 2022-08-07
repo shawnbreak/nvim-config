@@ -55,8 +55,11 @@ keymap("x", "<A-j>", ":move '>+1<CR>gv-gv", opts)
 keymap("x", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 
 -- Telescope
-keymap("n", "<leader>f", ":Telescope find_files<CR>", opts)
-keymap("n", "<C-t>", ":Telescope live_grep<CR>", opts)
+keymap("n", "<leader>ff", ":Telescope find_files<CR>", opts)
+keymap("n", "<leader>fg", ":Telescope live_grep<CR>", opts)
+keymap("n", "<leader>fb", ":Telescope buffers<CR>", opts)
+keymap("n", "<leader>fh", ":Telescope help_tags<CR>", opts)
+keymap("n", "<leader>fs", ":Telescope git_status<CR>", opts)
 
 -- NvimTree
 keymap("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
@@ -67,7 +70,7 @@ keymap("n", "<leader>h", ":lua require('harpoon.ui').toggle_quick_menu()<CR>", o
 keymap("n", "<leader>m", ":lua require('harpoon.mark').add_file()<CR>", opts)
 
 -- Project
-keymap("n", "<leader>p", ":Telescope projects<CR>", opts)
+keymap("n", "<leader>fp", ":Telescope projects<CR>", opts)
 
 -- ToggleTerm
 keymap("n", "<leader>tt", ":ToggleTerm direction=float<CR>", opts)
