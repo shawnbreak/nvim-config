@@ -62,7 +62,7 @@ keymap("n", "<leader>fh", ":Telescope help_tags<CR>", opts)
 keymap("n", "<leader>fs", ":Telescope git_status<CR>", opts)
 
 -- NvimTree
-keymap("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
+keymap("n", "<leader><leader>", ":NvimTreeToggle<CR>", opts)
 
 
 -- Harpoon
