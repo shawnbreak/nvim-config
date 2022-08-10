@@ -115,6 +115,9 @@ return packer.startup(function(use)
 
     -- Comment
     use 'numToStr/Comment.nvim'
+    
+    -- lspkind vscode-like pictograms
+    use "onsails/lspkind.nvim"
 
 
     -- Automatically set up  your configuration file after cloning packer.nvim
