@@ -48,10 +48,13 @@ return packer.startup(function(use)
     use "wbthomason/packer.nvim" -- Have packer manage itself
     use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
     use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins 
-    use 'folke/tokyonight.nvim'
     use 'kyazdani42/nvim-web-devicons'
     use 'nvim-lualine/lualine.nvim'
     use "goolord/alpha-nvim"
+
+    -- Colorscheme
+    use 'folke/tokyonight.nvim'
+    use 'Mofiqul/vscode.nvim'
 
     -- cmp plugins
     use "hrsh7th/nvim-cmp" -- The completion plugin
@@ -118,6 +121,8 @@ return packer.startup(function(use)
     
     -- lspkind vscode-like pictograms
     use "onsails/lspkind.nvim"
+
+    use 'mfussenegger/nvim-dap'
 
 
     -- Automatically set up  your configuration file after cloning packer.nvim

@@ -9,7 +9,7 @@ if not vim.fn.has("macunix") then
     require "user.treesitter"
 end
 require "user.nvimtree"
-require "user.bufferline"
+-- require "user.bufferline"
 require "user.gitsigns"
 require "user.harpoon"
 require "user.projectnvim"
