@@ -3,7 +3,6 @@ require "user.keymaps"
 require "user.plugins"
 require "user.colorscheme"
 require "user.cmp"
-require "user.lsp"
 require "user.telescope"
 if not vim.fn.has("macunix") then
     require "user.treesitter"
@@ -19,3 +18,5 @@ require "user.globals"
 require "user.autopairs"
 require "user.whichkey"
 require "user.comment"
+require "user.lsp"
+require("user.dap").setup()

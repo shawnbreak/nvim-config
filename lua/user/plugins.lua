@@ -123,8 +123,13 @@ return packer.startup(function(use)
     -- lspkind vscode-like pictograms
     use "onsails/lspkind.nvim"
 
+    -- nvim-dap
     use 'mfussenegger/nvim-dap'
-
+    use "theHamsta/nvim-dap-virtual-text"
+    use "rcarriga/nvim-dap-ui"
+    use "nvim-telescope/telescope-dap.nvim"
+    use "mfussenegger/nvim-dap-python"
+    use "leoluz/nvim-dap-go"
 
     -- Automatically set up  your configuration file after cloning packer.nvim
     -- Put this at the end of all plugins
