@@ -36,9 +36,11 @@ telescope.setup{
     extensions = {
       projects = {
         theme = "dropdown",
-      }
+      },
     },
     layout_config = {
       vertical = { width = 0.5 }
     }
 }
+
+telescope.load_extension("dap")

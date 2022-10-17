@@ -1,1 +1,1 @@
-require "user.colorscheme.vscode"
+require "user.colorscheme.nightfox"

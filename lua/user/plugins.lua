@@ -130,6 +130,7 @@ return packer.startup(function(use)
     use "nvim-telescope/telescope-dap.nvim"
     use "mfussenegger/nvim-dap-python"
     use "leoluz/nvim-dap-go"
+    use 'simrat39/rust-tools.nvim'
 
     -- Automatically set up  your configuration file after cloning packer.nvim
     -- Put this at the end of all plugins
