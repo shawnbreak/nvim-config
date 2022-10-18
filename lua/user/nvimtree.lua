@@ -97,3 +97,21 @@ nvimtree.setup{
     },
   },
 }
+
+
+
+  local keymap = {
+    n = {
+      name = "NvimTree",
+      f = { "<cmd>NvimTreeFocus<cr>", "NvimTreeFocus" },
+    },
+  }
+
+require("which-key").register(keymap, {
+    mode = "n",
+    prefix = "<leader>",
+    buffer = nil,
+    silent = true,
+    noremap = true,
+    nowait = false,
+  })
